@@ -266,7 +266,7 @@ public class CardGame extends javax.swing.JFrame implements MouseListener {
             //imgLabel.removeAll();
         } catch (IllegalArgumentException e) {
             imgLabel.setIcon(new ImageIcon(getClass().getResource("/img/0 back.png")));
-            JOptionPane.showMessageDialog(null, "Out of cards!", "eeyyy outta cards, hope y'all happy", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Out of cards!", "The deck has run out of cards.", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_dealButtonActionPerformed
 
